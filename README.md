@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CampusInterview Jobs is designed to simplify and enhance your job search process. Whether you're a recent graduate, seasoned professional, or someone looking to make a career change, our application provides the tools and resources you need to succeed.Users can explore a wide range of job opportunities across different industries, locations, and job types.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Job Search: Explore many of job listings from various industries and locations.
+-Filter: You can search jobs by filtering locations and job titles.
+- Application Tracking: Keep track of your job applications and their statuses.
+- Notifications: Stay updated with job alerts and application status changes.
+- Job Posting: Anyone can easily post a new job.
+- Profile Building: Profile building features like personal details, educational details, professional details and skills and many more features.
+- Login and Signup: If you already a registered user then login else register yourself.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Sign Up: Create your account on CampusInterview using your email.
+- Complete Your Profile: Fill in your details, upload your resume, and set your job preferences.
+- Explore Jobs: Use the search feature to find jobs that match your skills and interests.
+- Stay Updated: Enable notifications to receive alerts about new job postings and application updates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Client:** React, Bootstrap, Sweetalert
 
-### `npm run build`
+**Server:** Nodejs, Express.js, RESTful APIs, JSON
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Database:** MongoDb
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+#### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js and npm installed
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Steps
+1. Clone the repository:
+```bash
+git clone https://github.com/ankit-s0360/CampusInterview-Jobs.git
+cd CampusInterview-Job
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+2. Install dependencies:
+```bash
+npm Install
+```
+3. Run the development server:
+```bash
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Usage
+#### Job Searching
+- You can search jobs using searching input feature.
+- Also can search jobs by filter like location and Job title and more
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Application for Jobs
+- If your skill matches to the prefer jobs, then you can apply and track status.

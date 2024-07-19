@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bg-purple{
+  background-color:purple;
+}
+.mybg{
+  background-color: #0c4379 !important;
+}
+
+.job-bg:hover{
+  cursor: pointer;
+  background-color: #e2e6ea;;
+  transition: background-color 0.3s ease;
+}
+
+.list-items:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.sticky-div {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 56px; /* Adjust this value to match the height of your navbar */
+  background-color: white;
+  padding: 10px;
+}
