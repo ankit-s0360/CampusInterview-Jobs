@@ -49,7 +49,7 @@ npm Install
 3. Run the development server:
 ```bash
 npm start
-
+```
 
 ### Usage
 #### Job Searching
